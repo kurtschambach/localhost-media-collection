@@ -2,6 +2,8 @@
 
 This is a Next application you can run on your localhost to organize your (legally of course ;)) downloaded movies.
 
+It was archived, because it is very hard to implement the behaviour I wanted, and the useability would be terrible.
+
 ## Getting Started
 
 First, install the dependencies:
