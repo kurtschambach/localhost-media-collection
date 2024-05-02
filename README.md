@@ -4,7 +4,13 @@ This is a Next application you can run on your localhost to organize your (legal
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+pnpm i
+```
+
+Then, run the development server:
 
 ```bash
 pnpm dev
@@ -12,15 +18,14 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To get autocompletions when adding a movie, or fetch movie posters from TMDB, you need to
+add an .env in the root of the project.  
+You can copy the .env.example, and add your own api keys.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## About
 
-## Learn More
+Localhost Media Collection by [a3chron](https://a3chron.vercel.app/)
 
-To learn more about Next.js, take a look at the following resources:
+Built with NextJS and TailwindCSS.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Thanks to [TMDB](https://www.themoviedb.org/) for the movie poster API.
